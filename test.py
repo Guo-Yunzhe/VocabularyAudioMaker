@@ -101,6 +101,6 @@ words = text.split('\n')
 
 words = list(filter(not_empty, words))
 
-print words
+# print words
 
 audioFileOperations.createAudioFromList( words, 'tests/output.mp3', interval = 1200)

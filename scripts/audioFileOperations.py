@@ -33,9 +33,11 @@ class audioFileOperations:
         # export
         file_handle = result.export(outputPath , format= format, 
                     tags = {"album": album , "artist": artist } )
-        # print 'There are',
-        # print noRecordCount,
-        # print 'words have no audio.'
+        print 'There are',
+        print noRecordCount,
+        print 'in',
+        print len(wordList),
+        print 'words have no audio.'
         return noRecordCount
         pass
 
