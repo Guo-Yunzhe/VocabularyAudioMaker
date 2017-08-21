@@ -27,6 +27,7 @@ class findAudio:
         # test code ..
         assert len(wordStr) >= 1, 'Invalid Word!'
         word = wordStr.lower()
+        word = word.strip()
         word = word.replace('\r', '' )
         word = word.replace(' ' , '-')
         firstCharacter = word[0]
