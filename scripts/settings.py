@@ -5,3 +5,13 @@ SILENCE_SOUND_PATH = '/Users/guoyunzhe/Documents/VocabularyAudioMaker/data/silen
 
 ALBUM = 'GRE'
 ARTIST = 'No Idea'
+
+
+LOGO = '''
+__     ___    __  __   _              ______   _______
+\ \   / / \  |  \/  | | |__  _   _   / ___\ \ / /__  /
+ \ \ / / _ \ | |\/| | | '_ \| | | | | |  _ \ V /  / / 
+  \ V / ___ \| |  | | | |_) | |_| | | |_| | | |  / /_ 
+   \_/_/   \_\_|  |_| |_.__/ \__, |  \____| |_| /____|
+                             |___/                    ''' 
+
